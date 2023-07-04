@@ -1,1 +1,1 @@
-# CCCEnergy
+# Circular Cities Challenge Energy
