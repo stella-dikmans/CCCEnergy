@@ -2,7 +2,7 @@
 
 
 
-the real live data for the energy production we get from [red electrica](https://external.ink?to=/demanda.ree.es/visiona/peninsula/demandaqh/total/2023-7-5)
+the real live data for the energy production we get from [red electrica](https://demanda.ree.es/visiona/peninsula/demandaqh/total/2023-7-5)
 
 according to red electrica, the renovable energy sources are:
 
