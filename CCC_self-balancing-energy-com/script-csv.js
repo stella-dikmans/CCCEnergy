@@ -23,7 +23,7 @@ let demandrow = [];//arraw of my rows (objects)
 
 function preload() {
   table = loadTable("production2.csv", "header");
-  demandTable = loadTable("demand2.csv","header");
+  demandTable = loadTable("demand2.csv", "header");
 }
 
 // Convert saved data into Objects
@@ -47,7 +47,7 @@ function loadData() {
 
     //let rows = demandTable.findRows(hora, 'Hora');
     //console.log(rows[0][1])
-    
+
     //console.log(hora, energy)
 
     // Put object in array
@@ -60,7 +60,7 @@ function loadData() {
 
     //let rows = demandTable.findRows(hora, 'Hora');
     //console.log(rows[0][1])
-    
+
     //console.log(hora, energy)
 
     // Put object in array
@@ -69,33 +69,43 @@ function loadData() {
   }
 }
 
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+  //background(220);
+}
+
 
 //showing the data on the webpage as a background
 function setup() {
   createCanvas(windowWidth, windowHeight);
   background(220);
   loadData();
-
-//resizing the canvas each time the window is being resized
+  frameRate(5);
+  //resizing the canvas each time the window is being resized
   window.addEventListener('resize', windowResized);
 }
 
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
-  //background(220);
+let frameIndex = 0; // Current frame index for animation
+function draw() {
+  //plot();
+  animate();
+
+
+
 }
-s
+
+
 //plotting the energy production and the energydemand data in relation to each other
 function plot() {
   const xSpacing = width / (prodrow.length + 1);
   const prodMax = max(prodrow.map(dataPoint => dataPoint.energy));
-  console.log(prodMax);
+  //console.log(prodMax);
   const demMax = max(demandrow.map(dataPoint => dataPoint.real));
-  console.log(demMax);
+  //console.log(demMax);
   const prodMin = min(prodrow.map(dataPoint => dataPoint.energy));
-  console.log(prodMax);
+  //console.log(prodMax);
   const demMin = min(demandrow.map(dataPoint => dataPoint.real));
-  console.log(demMax);
+  //console.log(demMax);
   const ySpacing = height / (demandrow.length + 1);
 
   for (let i = 0; i < prodrow.length; i++) {
@@ -106,9 +116,10 @@ function plot() {
     //const x = (i + 1) * xSpacing;
     //const y = height - dataPoint.energy * ySpacing;
 
-    fill(0);
+    fill(255,125);
     noStroke();
-    circle(prod, height-demand, 5);
+    console.log("plot")
+    circle(prod, height - demand, 5);
   }
 }
 
@@ -117,31 +128,41 @@ function plot() {
 function plotPoint(rowNum) {
   const xSpacing = width / (prodrow.length + 1);
   const prodMax = max(prodrow.map(dataPoint => dataPoint.energy));
-  console.log(prodMax);
+  //console.log(prodMax);
   const demMax = max(demandrow.map(dataPoint => dataPoint.real));
-  console.log(demMax);
+  //console.log(demMax);
   const prodMin = min(prodrow.map(dataPoint => dataPoint.energy));
-  console.log(prodMax);
+  //console.log(prodMax);
   const demMin = min(demandrow.map(dataPoint => dataPoint.real));
-  console.log(demMax);
+  //console.log(demMax);
   const ySpacing = height / (demandrow.length + 1);
 
   const prodPoint = prodrow[rowNum];
   const demandPoint = demandrow[rowNum];
+
   let prod = map(prodPoint.energy, prodMin, prodMax, 0, width);
   let demand = map(demandPoint.real, demMin, demMax, 0, height);
+  console.log("prodPoint", prod);
+  console.log("demandPoint", demand);
   //const x = (i + 1) * xSpacing;
   //const y = height - dataPoint.energy * ySpacing;
 
-  fill(255,0,0);
-  noStroke();
-  circle(prod, height-demand, 15);
+  fill(255, 255, 255);
+  stroke(51);
+  strokeWeight(3);
+  circle(prod, height - demand, 25);
 }
 
-function draw() {
-  clear();
-  plot();
-  plotPoint(186);
 
+function animate() {
+  const totalRows = prodrow.length;
+
+  if (frameIndex < totalRows) {
+    clear(); // Clear the canvas on each frame
+    plot();
+    plotPoint(frameIndex); // Plot the current frame
+    frameIndex++; // Move to the next frame
+  }
 }
+
 
