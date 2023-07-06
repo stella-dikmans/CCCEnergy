@@ -265,10 +265,7 @@ function animate() {
 
 e voila!
 
-the result of the webpage:
-<img src="Screenshot 2023-07-06 at 17 15 18" src="https://github.com/stella-dikmans/CCCEnergy/assets/115219314/17a38a94-6de4-4d69-8f35-c4e9f521a73e" width="400">
-
-
-
+the result of the webpage: <br>
+<img src="https://github.com/stella-dikmans/CCCEnergy/assets/115219314/17a38a94-6de4-4d69-8f35-c4e9f521a73e" width="400">
 
 
