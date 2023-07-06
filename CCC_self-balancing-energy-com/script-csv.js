@@ -116,7 +116,7 @@ function plot() {
     //const x = (i + 1) * xSpacing;
     //const y = height - dataPoint.energy * ySpacing;
 
-    fill(255,125);
+    fill(255);
     noStroke();
     console.log("plot")
     circle(prod, height - demand, 5);
