@@ -3,8 +3,7 @@ class RowProd {
   constructor(hora, energy) {
     this.hora = hora;
     this.energy = energy;
-    this.diameter = 5;//energy / 80;
-    // this.radius = this.diameter / 2;
+    this.diameter = 5;
   }
 }
 
@@ -74,7 +73,6 @@ function windowResized() {
   //background(220);
 }
 
-
 //showing the data on the webpage as a background
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -89,11 +87,7 @@ let frameIndex = 0; // Current frame index for animation
 function draw() {
   //plot();
   animate();
-
-
-
 }
-
 
 //plotting the energy production and the energydemand data in relation to each other
 function plot() {
@@ -152,7 +146,6 @@ function plotPoint(rowNum) {
   strokeWeight(3);
   circle(prod, height - demand, 25);
 }
-
 
 function animate() {
   const totalRows = prodrow.length;
