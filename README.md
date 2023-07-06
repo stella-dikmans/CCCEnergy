@@ -1,5 +1,9 @@
 # Circular Cities Challenge Energy
 
+## the code
+One of the issues of energy systems is how to deal with the mismatch of how/when we consume and when we produce energy. That means when energy generation is high and no one uses it we waste regenerative energy, whereas when use exceeds production energy is overused. Usually, this mismatch is balanced out by energy storage, but we’re trying to solve the problem of unused hours on a community level. An intervention in public space indicates the current energy situation via colors and a digital tool gives citizens the information to adapt their behaviors to the current availability of energy. So communities can autonomously reduce the pressure on the energy grid during peak hours and contribute to a more balanced energy system.
+
+
 
 ## the code
 
