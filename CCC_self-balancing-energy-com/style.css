@@ -8,22 +8,22 @@
 }
 
 @font-face {
-  font-family: "Plus Jakarta Sans";
-  src: url("f/PlusJakartaSans-Light.otf") format("truetype");
+  font-family: "jakarta";
+  src: url("f/PlusJakartaSans-Light.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: "compagnon";
-  src: url("f/Compagnon-Light.otf") format("truetype");
+  src: url("f/Compagnon-Light.otf") format("opentype");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Plus Jakarta Sans Medium";
-  src: url("f/PlusJakartaSans-Medium.otf") format("truetype");
+  font-family: "jakartaMedium";
+  src: url("f/PlusJakartaSans-Medium.ttf") format("truetype");
   font-weight: 700;
   font-style: medium;
 }
@@ -43,7 +43,7 @@ body{
 
   width: 100%;
   padding-left: 4vw;
-  font-size: 4vw;
+  font-size: 16pt;
   padding-top: 3vw;
   font-family: "compagnon", "Gill Sans", Helvetica, Arial, "sans-serif";
   
@@ -53,9 +53,9 @@ body{
 .description {
 
   padding-left: 4vw;
-  font-size: 2vw;
+  font-size: 12pt;
   letter-spacing: 1cap;
-  font-family: "Plus Jakarta Sans Medium", "Gill Sans", Helvetica, Arial, "sans-serif";
+  font-family: "jakarta Medium", "Gill Sans", Helvetica, Arial, "sans-serif";
 
 
 }
@@ -70,17 +70,17 @@ body{
   float:left;
   width: 50%;
   padding-left: 4vw;
-  font-size: 2vw;
+  font-size: 12pt;
   letter-spacing: 1cap;
-  font-family: "Plus Jakarta Sans", "Gill Sans", Helvetica, Arial, "sans-serif";
+  font-family: "jakarta", "Gill Sans", Helvetica, Arial, "sans-serif";
 }
 .right {
   right: 0;
   text-align: right; 
   padding-right: 4vw;
-  font-size: 2vw;
+  font-size: 12pt;
   letter-spacing: 1cap;
-  font-family: "Plus Jakarta Sans", "Gill Sans", Helvetica, Arial, "sans-serif";
+  font-family: "jakarta", "Gill Sans", Helvetica, Arial, "sans-serif";
 }
 
 .matrix {
@@ -92,20 +92,17 @@ body{
 
 .top, .bottom {
   text-align: center;
-  font-size: 2vw;
+  font-size: 12pt;
   letter-spacing: 1cap;
-  font-family: "Plus Jakarta Sans", "Gill Sans", Helvetica, Arial, "sans-serif";
+  font-family: "jakarta", "Gill Sans", Helvetica, Arial, "sans-serif";
 }
 
-.bottom {
 
-
-}
  
 .rectangle_outside {
 
- width: 48%;
- height: 48%;
+ width: 49%;
+ height: 49%;
 float: left;
 margin: 0.5%;
 }
@@ -127,9 +124,9 @@ margin: 0.5%;
 
 #foreground{
   position: fixed;
-  width: 100%;
+  width: 96%;
   height: 100%;
-  padding-left:3.5vw;
+  padding: 0 2%;
 }
 
 #canvas {
@@ -137,4 +134,5 @@ margin: 0.5%;
   padding: 0%;
   position: fixed;
   cursor: crosshair;
+  
 }
