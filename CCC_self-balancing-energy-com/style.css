@@ -9,21 +9,21 @@
 
 @font-face {
   font-family: "Plus Jakarta Sans";
-  src: url("f/PlusJakartaSans-Light.ttf") format("truetype");
+  src: url("f/PlusJakartaSans-Light.otf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: "compagnon";
-  src: url("f/Compagnon-Light.ttf") format("truetype");
+  src: url("f/Compagnon-Light.otf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Plus Jakarta Sans Medium";
-  src: url("f/PlusJakartaSans-Medium.ttf") format("truetype");
+  src: url("f/PlusJakartaSans-Medium.otf") format("truetype");
   font-weight: 700;
   font-style: medium;
 }
@@ -74,36 +74,12 @@ body{
   text-align: right; 
 }
 
-.matrix li div {
-  display: inline;
-  text-align: center;
-}
-
-.description_high {
- 
-  text-align: center;
-margin-top: 2vw;
-  font-size: 2vw;
-  letter-spacing: 1cap;
-  font-family: "Plus Jakarta Sans", "Gill Sans", Helvetica, Arial, "sans-serif";
-}
-
 .matrix {
-  padding-bottom: 4vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.matrix li {
-  float: left;
-  
-}
-
-.matrix li div {
-  padding-left: 4vw;
-  font-size: 2vw;
-  text-decoration: none;
-  letter-spacing: 1cap;
-  font-family: "Plus Jakarta Sans", "Gill Sans", Helvetica, Arial, "sans-serif";
-}
 
 #foreground{
   position: fixed;
