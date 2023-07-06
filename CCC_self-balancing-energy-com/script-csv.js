@@ -82,7 +82,7 @@ function setup() {
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
-  background(220);
+  //background(220);
 }
 s
 //plotting the energy production and the energydemand data in relation to each other
@@ -139,7 +139,9 @@ function plotPoint(rowNum) {
 }
 
 function draw() {
+  clear();
   plot();
   plotPoint(186);
+
 }
 
