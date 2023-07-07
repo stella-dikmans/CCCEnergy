@@ -1,22 +1,29 @@
 # Circular Cities Challenge Energy
+*A TOOL FOR SELFBALANCING ENERGY COMMUNITIES*
+
+see the [webpage](https://stella-dikmans.github.io/CCCEnergy/CCC_self-balancing-energy-com/) <br>
+<img src="https://github.com/stella-dikmans/CCCEnergy/assets/115219314/17a38a94-6de4-4d69-8f35-c4e9f521a73e" width="400">
 
 ## A tool for self-balancing energy communities
-One of the issues of energy systems is how to deal with the mismatch of how/when we consume and when we produce energy. That means when energy generation is high and no one uses it we waste regenerative energy, whereas when use exceeds production energy is overused. Usually, this mismatch is balanced out by energy storage, but we’re trying to solve the problem of unused hours on a community level. An intervention in public space indicates the current energy situation via colors and a digital tool gives citizens the information to adapt their behaviors to the current availability of energy. So communities can autonomously reduce the pressure on the energy grid during peak hours and contribute to a more balanced energy system.
+A challenge in the transition to renewable energy systems is the question of how to deal with the time mismatch between energy consumption and energy production. When energy production is high and no one uses it, we waste renewable energy, and when consumption exceeds production, energy is overused. Normally, this imbalance is compensated by energy storage and the use of non-renewable energy sources. <br> <br>UP2US aims to address the problem of unused hours at the community level. An installation in public space makes people aware of the Energy Mismatch. Corresponding colours and an accompanying digital interface translate data about the current availability of energy. Communities can independently adapt their behaviour to reduce the pressure on the energy grid during peak hours, working towards a more balanced energy system that can be supported by renewable energy sources.
 
 
 ## The product
 This piece lights up in different colours and by that serves as an indicator of when to use electricity and when to reduce energy-consumption. The QR-code on the piece links to a website on which the real-time data from the electricity consumption is set into relation to the real-time data of the energy-generation. Because we want it to be a community engaging work in which citizens are getting aware of the "hidden" structures and imbalances of our urban energy-cycles, it will be installed in public spaces. Here, the community can come together to exchange thought and experience with their use of electricity. The piece has the potential to be transformed into a smaller version portable version that might be installed in private areas to also here indicate clearly what times one can use electricity.
 
 
-## The process
+## The context
+We are so used to plugging in our devices whenever we want, that we take constant and non fluctuating energy supply for granted. Yet, renewable energy sources are highly dependend on external influences, such as the weather in the case of solar and wind. In the transition to renewable energy systems, our current approach to instant availabitiy to electricity is fatal: when renewable-source energy is high during sunny or windy hours and noone uses it, we let it go unused (*to waste?*), whereas when consumption exceeds renewable-sources energy production at night when the sun is gone and winds calmed down, we compensate the gab with non-renewable-sources energy and batteries. Therefor, in order to fully transition to renewable-energy sources, awareness about the availability and physicality of energy is needed. 
 
+
+## The process
 
 <img src="https://github.com/stella-dikmans/CCCEnergy/assets/115219314/76566e94-81d2-4cbd-a730-6daa8d24bfe2" width="400">
 
 
 
 
-## The code
+## The data and the code
 
 the real live data for the energy production we get from [red electrica](https://demanda.ree.es/visiona/peninsula/demandaqh/total/2023-7-5)
 
@@ -264,8 +271,3 @@ function animate() {
 ```
 
 e voila!
-
-the result of the webpage: <br>
-<img src="https://github.com/stella-dikmans/CCCEnergy/assets/115219314/17a38a94-6de4-4d69-8f35-c4e9f521a73e" width="400">
-
-
