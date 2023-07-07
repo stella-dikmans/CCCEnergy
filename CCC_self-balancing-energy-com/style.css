@@ -1,17 +1,6 @@
-/* html {
-  height: 100%;
-  width: 100%;   
-} */
 
 :root{
   box-sizing: border-box;
-}
-
-@font-face {
-  font-family: "jakarta Light";
-  src: url("f/PlusJakartaSans-Light.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
 }
 
 @font-face {
@@ -22,14 +11,11 @@
 }
 
 @font-face {
-  font-family: "jakarta Medium";
-  src: url("f/PlusJakartaSans-Medium.ttf") format("truetype");
+  font-family: "jakarta Light";
+  src: url("f/PlusJakartaSans-Light.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
-
-
-
 
 body{
   margin: 0;
@@ -37,110 +23,72 @@ body{
   width: 100vw;
   height: 100vh;
   background: linear-gradient(135deg, #FF5E30 0%, #D2FFA0 46.70%, #A5F79A 64.93%, #74EE93 84.38%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
 }
 
 #API {
-
   width: 100%;
   padding-left: 0.5vw;
-  font-size: 45pt;
+  font-size:45pt;
   padding-top: 3vw;
   font-family: "compagnon", "Gill Sans", Helvetica, Arial, "sans-serif";
-  
-
 }
 
 .description {
-
   padding-left: 0.5vw;
-  font-size: 22pt;
-  letter-spacing: 1cap;
+  font-size: 20pt;
+  letter-spacing: 0,5cap;
   font-family: "jakarta Light", "Gill Sans", Helvetica, Arial, "sans-serif";
-
-
-}
-
-.description_low {
-  bottom: 0;
-  text-align: center;
- 
 }
 
 .left {
-  float:left;
-  width: 50%;
- 
-  font-size: 22pt;
-  letter-spacing: 1cap;
-  font-family: "jakarta Light", "Gill Sans", Helvetica, Arial, "sans-serif";
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  font-size: 15pt;
+  letter-spacing: 0,8cap;
+  font-family: "jakarta Light", "Gill Sans", Helvetica, Arial, sans-serif;
 }
+
 .right {
-  right: 0;
-  text-align: right; 
- 
-  font-size: 22pt;
-  letter-spacing: 1cap;
-  font-family: "jakarta Light", "Gill Sans", Helvetica, Arial, "sans-serif";
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  text-align: right;
+  font-size: 15pt;
+  letter-spacing: 0,8cap;
+  font-family: "jakarta Light", "Gill Sans", Helvetica, Arial, sans-serif;
 }
 
-.matrix {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
- 
-}
-
-.top, .bottom {
+.top {
   text-align: center;
-  font-size: 22pt;
-  letter-spacing: 1cap;
+  font-size: 15pt;
+  letter-spacing: 0,8cap;
+  padding-top: 5vw;
   font-family: "jakarta Light", "Gill Sans", Helvetica, Arial, "sans-serif";
 }
 
 .bottom {
-  position: absolute; 
-bottom: 0;
-text-align: center; 
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  text-align: center;
 
+  font-size: 15pt;
+  letter-spacing: 0,8cap;
+  padding-bottom: 5vw;
+  font-family: "jakarta Light", "Gill Sans", Helvetica, Arial, "sans-serif";
 }
-
-
- 
-.rectangle_outside {
-
- width: 49%;
- height: 49%;
-float: left;
-margin: 0.5%;
-}
-
-.rectangle_inside {
-  background-color: black;
-  opacity: 0.1;
-
-  width: 100%;
-  height:100%;
-}
-
-.container {
-  width: 100%;
-  height: 100%;
-  
-}
-
 
 #foreground{
   position: fixed;
   width: 96%;
   height: 100%;
   padding: 0 2%;
-}
-
-#canvas {
-  margin: 0%;
-  padding: 0%;
-  position: fixed;
-  cursor: crosshair;
-  
 }

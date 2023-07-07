@@ -1,72 +1,33 @@
 <!DOCTYPE html>
-<html>
+  <html>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>UP2US</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
-  <script src="script-csv.js"></script>
-</head>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>UP2US</title>
+      <link href="style.css" rel="stylesheet" type="text/css" />
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
+      <script src="script-csv.js"></script>
+    </head>
 
-<body>
-  
-  <div id="foreground">
-   
-    
- 
-  <div id=API>UP2US</div>
-  <div class ="description">A tool for self - balancing
-    energy communities</div>
+    <body>
+        <div id="foreground">
+          <div id=API>UP2US</div>
+          <div class="description">a tool for self - balancing energy communities</div>
+            
+            <div class="matrix">   
+                <div class ="top">high use</div>
+          
+                  <div class ="center">
+                    <div class ="left">low production</div>
+                    <div class ="right">high production</div>
+                  </div>
 
- 
+                <div class ="bottom">low use</div>
+            </div>
+        </div>
 
+      <div id=canvas></div>
+    </body>
 
-
-    <div class="matrix">
-
-      <div class ="top">High use</div>
-
-      <div class ="center">
-
-        <div class ="left">Low production</div>
-
-        <div class ="right">High production</div>
-
-      </div>
-
-      <div class ="bottom">Low use</div>
-     
-    </div>
-
-    
-    <!--div class="container">
-
-      <div class ="rectangle_outside">
-        <div class ="rectangle_inside"></div>
-      </div>
-      <div class ="rectangle_outside">
-        <div class ="rectangle_inside"></div>
-      </div>
-      <div class ="rectangle_outside">
-        <div class ="rectangle_inside"></div>
-      </div>
-      <div class ="rectangle_outside">
-        <div class ="rectangle_inside"></div>
-      </div-->
-
-     
-     
-   
-  </div>
-
-    
-  
-  </div>
-  <div id=canvas>
-    
-  </div>
-</body>
-
-</html>
+  </html>
