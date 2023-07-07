@@ -25,7 +25,7 @@ We are so used to plugging in our devices whenever we want, that we take constan
 
 ## The data and the code
 
-the real live data for the energy production we get from [red electrica](https://demanda.ree.es/visiona/peninsula/demandaqh/total/2023-7-5)
+the real live data for the energy production we get from [red electrica](https://demanda.ree.es/visiona/peninsula/demandaqh/total/2023-7-5). Ideally, the interface will eventually work with the live data, but since we do not yet have the tokens to use the API that allows us to retrieve and integrate real-time data, we are working with a dataset of a specific time. For this first iteration and prototype, we are using the 5-minute distance data from *2023-07-05 00:00* to *2023-07-06 00:00* - resulting in a dataset of 289 data points. 
 
 therefore we are extracting the right data as CSV-sheets from [red electrica's demands](https://demanda.ree.es/visiona/peninsula/demandaqh/total/2023-7-5](https://demanda.ree.es/visiona/peninsula/demandaqh/tablas/2023-7-5/1)https://demanda.ree.es/visiona/peninsula/demandaqh/tablas/2023-7-5/1) and from [red electrica's generacion](https://demanda.ree.es/visiona/peninsula/demandaqh/total/2023-7-5](https://demanda.ree.es/visiona/peninsula/demandaqh/tablas/2023-7-5/1)https://demanda.ree.es/visiona/peninsula/demandaqh/tablas/2023-7-5/1](https://demanda.ree.es/visiona/peninsula/demandaqh/tablas/2023-7-5/2)https://demanda.ree.es/visiona/peninsula/demandaqh/tablas/2023-7-5/2) sites. Because we are multiple people, we code together in [replit](https://replit.com/~). Here we create a new HTML, CSS, JS-repl and start working in our javascript file.
 
