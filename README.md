@@ -1,10 +1,10 @@
 # Circular Cities Challenge Energy
-A TOOL FOR SELFBALANCING ENERGY COMMUNITIES
+*A TOOL FOR SELFBALANCING ENERGY COMMUNITIES*
 
 see the [webpage](https://stella-dikmans.github.io/CCCEnergy/CCC_self-balancing-energy-com/) 
 
 ## A tool for self-balancing energy communities
-A challenge in the transition to renewable energy systems is the question of how to deal with the time mismatch between energy consumption and energy production. <br> <br>When energy production is high and no one uses it, we waste renewable energy, and when consumption exceeds production, energy is overused. Normally, this imbalance is compensated by energy storage and the use of non-renewable energy sources. <br> <br>UP2US aims to address the problem of unused hours at the community level. An installation in public space makes people aware of the Energy Mismatch. Corresponding colours and an accompanying digital interface translate data about the current availability of energy. Communities can independently adapt their behaviour to reduce the pressure on the energy grid during peak hours, working towards a more balanced energy system that can be supported by renewable energy sources.
+A challenge in the transition to renewable energy systems is the question of how to deal with the time mismatch between energy consumption and energy production. When energy production is high and no one uses it, we waste renewable energy, and when consumption exceeds production, energy is overused. Normally, this imbalance is compensated by energy storage and the use of non-renewable energy sources. <br> <br>UP2US aims to address the problem of unused hours at the community level. An installation in public space makes people aware of the Energy Mismatch. Corresponding colours and an accompanying digital interface translate data about the current availability of energy. Communities can independently adapt their behaviour to reduce the pressure on the energy grid during peak hours, working towards a more balanced energy system that can be supported by renewable energy sources.
 
 
 ## The product
