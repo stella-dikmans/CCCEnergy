@@ -21,8 +21,8 @@ let prodrow = [];//arraw of my rows (objects)
 let demandrow = [];//arraw of my rows (objects)
 
 function preload() {
-  table = loadTable("production2.csv", "header");
-  demandTable = loadTable("demand2.csv", "header");
+  table = loadTable("production.csv", "header");
+  demandTable = loadTable("demand.csv", "header");
 }
 
 // Convert saved data into Objects
