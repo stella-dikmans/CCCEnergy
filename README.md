@@ -1,7 +1,7 @@
 # Circular Cities Challenge Energy
 *A TOOL FOR SELFBALANCING ENERGY COMMUNITIES*
 
-see the [webpage](https://stella-dikmans.github.io/CCCEnergy/CCC_self-balancing-energy-com/) 
+see the [webpage](https://stella-dikmans.github.io/CCCEnergy/CCC_self-balancing-energy-com/) <br>
 <img src="https://github.com/stella-dikmans/CCCEnergy/assets/115219314/17a38a94-6de4-4d69-8f35-c4e9f521a73e" width="400">
 
 ## A tool for self-balancing energy communities
