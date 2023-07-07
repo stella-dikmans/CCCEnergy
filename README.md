@@ -11,8 +11,12 @@ A challenge in the transition to renewable energy systems is the question of how
 This piece lights up in different colours and by that serves as an indicator of when to use electricity and when to reduce energy-consumption. The QR-code on the piece links to a website on which the real-time data from the electricity consumption is set into relation to the real-time data of the energy-generation. Because we want it to be a community engaging work in which citizens are getting aware of the "hidden" structures and imbalances of our urban energy-cycles, it will be installed in public spaces. Here, the community can come together to exchange thought and experience with their use of electricity. The piece has the potential to be transformed into a smaller version portable version that might be installed in private areas to also here indicate clearly what times one can use electricity.
 
 
-## The process
+## The context
 
+We are so used to plugging in our devices whenever we want, that we take constant and non fluctuating energy supply for granted. Yet, renewable energy sources are highly dependend on external influences, such as the weather in the case of solar and wind. In the transition to renewable energy systems, our current approach to instant availabitiy to electricity is fatal: when renewable-source energy is high during sunny or windy hours and noone uses it, we let it go unused (*to waste?*), whereas when consumption exceeds renewable-sources energy production at night when the sun is gone and winds calmed down, we compensate the gab with non-renewable-sources energy and batteries. Therefor, in order to fully transition to renewable-energy sources, awareness about the availability and physicality of energy is needed. 
+
+
+## The process
 
 <img src="https://github.com/stella-dikmans/CCCEnergy/assets/115219314/76566e94-81d2-4cbd-a730-6daa8d24bfe2" width="400">
 
