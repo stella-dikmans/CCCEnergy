@@ -114,6 +114,7 @@ body{
 
   .right {
     right: 20px; /* Adjusted position for .right */
+    text-align: right;
   }
 
   .top,
