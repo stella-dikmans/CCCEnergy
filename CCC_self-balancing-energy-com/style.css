@@ -89,25 +89,24 @@ body{
   font-family: "jakarta Light", "Gill Sans", Helvetica, Arial, sans-serif;
 }
 
-
-/* Mobile devices (max-width 767px) */
+/* Media queries for mobile devices */
 @media screen and (max-width: 767px) {
-  .top, .bottom {
-    font-size: 12pt; /* Adjust font size for smaller screens */
+  .description {
+    font-size: 12pt; /* Decrease font size for better mobile readability */
   }
 
-  .top {
-    position: absolute;
-    top: 10px;
-    left: 50%;
-    transform: translateX(-50%);
+  .left,
+  .right {
+    position: static; /* Remove absolute positioning on sides for mobile */
+    transform: none;
+    text-align: center;
   }
 
+  .top,
   .bottom {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
+    position: static; /* Remove absolute positioning on top and bottom for mobile */
+    left: auto;
+    transform: none;
   }
 }
 
