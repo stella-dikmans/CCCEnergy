@@ -96,17 +96,19 @@ body{
   }
 
   .left,
-  .right {
-    position: static; /* Remove absolute positioning on sides for mobile */
-    transform: none;
-    text-align: center;
+  .top {
+    top: 20px; /* Adjusted position for top and left texts */
+    left: 20px; /* Adjusted position for top and left texts */
+    transform: none; /* Reset transform */
+    text-align: left; /* Align left for top text */
   }
 
-  .top,
+  .right,
   .bottom {
-    position: static; /* Remove absolute positioning on top and bottom for mobile */
-    left: auto;
-    transform: none;
+    bottom: 20px; /* Adjusted position for bottom and right texts */
+    right: 20px; /* Adjusted position for bottom and right texts */
+    transform: none; /* Reset transform */
+    text-align: right; /* Align right for bottom text */
   }
 }
 
