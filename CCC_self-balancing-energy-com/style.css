@@ -101,8 +101,6 @@ body{
     left: 20px; /* Adjusted position for top and left texts */
     transform: translateX(-50%);
     text-align: left; /* Align left for top text */
-    max-width: 80%; /* Adjusted max width */
-    word-wrap: break-word; /* Added word-wrap property to wrap text */
   }
 
   .right,
@@ -111,8 +109,6 @@ body{
     right: 20px; /* Adjusted position for bottom and right texts */
     transform: translateX(-50%);
     text-align: right; /* Align right for bottom text */
-    max-width: 80%; /* Adjusted max width */
-    word-wrap: break-word; /* Added word-wrap property to wrap text */
   }
 }
 
