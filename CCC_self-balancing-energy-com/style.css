@@ -104,17 +104,17 @@ body{
     letter-spacing: 0.8px;
     font-family: "jakarta Light", "Gill Sans", Helvetica, Arial, sans-serif;
     max-width: calc(50% - 40px); /* Adjusted max width to 50% of the container */
-    text-align: left; /* Align left for .left and right for .right */
     word-wrap: break-word; /* Added word-wrap property to wrap text */
   }
 
   .left {
     left: 20px; /* Adjusted position for .left */
+    text-align: left; /* Align left for .left */
   }
 
   .right {
     right: 20px; /* Adjusted position for .right */
-    text-align: right;
+    text-align: right; /* Align right for .right */
   }
 
   .top,
@@ -126,8 +126,8 @@ body{
     letter-spacing: 0.8px;
     font-family: "jakarta Light", "Gill Sans", Helvetica, Arial, sans-serif;
     max-width: 80%; /* Adjusted max width for .top and .bottom */
-    text-align: center; /* Align center for .top and .bottom */
     word-wrap: break-word; /* Added word-wrap property to wrap text */
+    text-align: right; /* Align right for .top and .bottom */
   }
 
   .top {
@@ -138,6 +138,7 @@ body{
     bottom: 20px; /* Adjusted position for .bottom */
   }
 }
+
 
 #foreground{
   position: fixed;
