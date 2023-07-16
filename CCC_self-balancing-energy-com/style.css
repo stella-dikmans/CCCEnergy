@@ -96,19 +96,45 @@ body{
   }
 
   .left,
-  .top {
-    top: 20px; /* Adjusted position for top and left texts */
-    left: 20px; /* Adjusted position for top and left texts */
-    transform: translateX(-50%);
-    text-align: left; /* Align left for top text */
+  .right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 15pt;
+    letter-spacing: 0.8px;
+    font-family: "jakarta Light", "Gill Sans", Helvetica, Arial, sans-serif;
+    max-width: calc(50% - 40px); /* Adjusted max width to 50% of the container */
+    text-align: left; /* Align left for .left and right for .right */
+    word-wrap: break-word; /* Added word-wrap property to wrap text */
   }
 
-  .right,
+  .left {
+    left: 20px; /* Adjusted position for .left */
+  }
+
+  .right {
+    right: 20px; /* Adjusted position for .right */
+  }
+
+  .top,
   .bottom {
-    bottom: 20px; /* Adjusted position for bottom and right texts */
-    right: 20px; /* Adjusted position for bottom and right texts */
+    position: absolute;
+    left: 50%;
     transform: translateX(-50%);
-    text-align: right; /* Align right for bottom text */
+    font-size: 15pt;
+    letter-spacing: 0.8px;
+    font-family: "jakarta Light", "Gill Sans", Helvetica, Arial, sans-serif;
+    max-width: 80%; /* Adjusted max width for .top and .bottom */
+    text-align: center; /* Align center for .top and .bottom */
+    word-wrap: break-word; /* Added word-wrap property to wrap text */
+  }
+
+  .top {
+    top: 20px; /* Adjusted position for .top */
+  }
+
+  .bottom {
+    bottom: 20px; /* Adjusted position for .bottom */
   }
 }
 
